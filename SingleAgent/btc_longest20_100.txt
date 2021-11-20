@@ -101,3 +101,116 @@ round =  99 training steps =  10000 reward =  83.3116279069769 frac =  0.5456516
 SM1 =  0.5228925973470261
 osm =  0.5724848756441855
 final simulation fraction =  0.5597318649748624
+
+
+
+
+ A new test from now!round =  0 training steps =  10000 reward =  -725.3627906976986 frac =  0.38324175824175827
+round =  1 training steps =  10000 reward =  -1109.618604651177 frac =  0.32514450867052025
+
+
+
+
+ A new test from now!round =  0 training steps =  10000 reward =  -781.6325581395516 frac =  0.3719284450560252
+round =  1 training steps =  10000 reward =  -1026.390697674437 frac =  0.33855685131195334
+round =  2 training steps =  10000 reward =  -1928.809302325577 frac =  0.2037376939763057
+round =  3 training steps =  10000 reward =  -1847.744186046509 frac =  0.21813643926788687
+round =  4 training steps =  10000 reward =  -1761.4883720930209 frac =  0.232
+round =  5 training steps =  10000 reward =  -1704.0790697674365 frac =  0.24080882352941177
+round =  6 training steps =  10000 reward =  -1730.6976744186036 frac =  0.23372681281618887
+round =  7 training steps =  10000 reward =  -1517.3813953488398 frac =  0.2665983956306537
+round =  8 training steps =  10000 reward =  -1670.3302325581426 frac =  0.24039610722212737
+round =  9 training steps =  10000 reward =  -578.3302325581694 frac =  0.4098459075445267
+round =  10 training steps =  10000 reward =  -284.0093023255852 frac =  0.46627688452704114
+round =  11 training steps =  10000 reward =  -244.7441860465113 frac =  0.47372881355932206
+round =  12 training steps =  10000 reward =  -181.0418604651158 frac =  0.4868392895356302
+round =  13 training steps =  10000 reward =  -171.6883720930229 frac =  0.48810303427199303
+round =  14 training steps =  10000 reward =  -163.37674418604607 frac =  0.49042392941682805
+round =  15 training steps =  10000 reward =  -63.90697674418578 frac =  0.5115973741794311
+round =  16 training steps =  10000 reward =  -51.19534883720925 frac =  0.5141129032258065
+round =  17 training steps =  10000 reward =  -4.325581395348978 frac =  0.5246049661399549
+round =  18 training steps =  10000 reward =  -64.20930232558128 frac =  0.5111361079865017
+round =  19 training steps =  10000 reward =  -111.66976744186051 frac =  0.500560161326462
+round =  20 training steps =  10000 reward =  -187.50232558139507 frac =  0.48369079535299375
+round =  21 training steps =  10000 reward =  -150.87441860465074 frac =  0.49183627823753073
+round =  22 training steps =  10000 reward =  -170.1209302325578 frac =  0.4871099050203528
+round =  23 training steps =  10000 reward =  23.837209302325643 frac =  0.5310423825887743
+round =  24 training steps =  10000 reward =  -111.58139534883699 frac =  0.5004504504504504
+round =  25 training steps =  10000 reward =  -16.939534883721397 frac =  0.5217781769196228
+round =  26 training steps =  10000 reward =  -14.293023255814441 frac =  0.5222812283537289
+round =  27 training steps =  10000 reward =  -48.87906976744219 frac =  0.514454814477578
+round =  28 training steps =  10000 reward =  -40.40465116279057 frac =  0.5163859808830223
+round =  29 training steps =  10000 reward =  149.9627906976745 frac =  0.5602869706086554
+round =  30 training steps =  10000 reward =  71.30232558139537 frac =  0.5416949152542373
+round =  31 training steps =  10000 reward =  0.7999999999995726 frac =  0.5257637938896489
+round =  32 training steps =  10000 reward =  6.004651162790266 frac =  0.5269529465509365
+round =  33 training steps =  10000 reward =  -88.59999999999957 frac =  0.5061430451952611
+round =  34 training steps =  10000 reward =  24.623255813952948 frac =  0.5311371841155235
+round =  35 training steps =  10000 reward =  -127.62325581395305 frac =  0.4964636093999544
+round =  36 training steps =  10000 reward =  -55.799999999999834 frac =  0.5129826145856853
+round =  37 training steps =  10000 reward =  -54.4139534883726 frac =  0.5133617785762408
+round =  38 training steps =  10000 reward =  -81.86046511627889 frac =  0.5073496659242762
+round =  39 training steps =  10000 reward =  -114.66046511627897 frac =  0.49954586739327883
+round =  40 training steps =  10000 reward =  -122.21395348837166 frac =  0.4975956033890543
+round =  41 training steps =  10000 reward =  -141.9302325581393 frac =  0.493287827076223
+round =  42 training steps =  10000 reward =  -94.99534883720908 frac =  0.5038830516217451
+round =  43 training steps =  10000 reward =  18.94418604651133 frac =  0.5300662878787878
+round =  44 training steps =  10000 reward =  -88.07441860465153 frac =  0.5052970981114694
+round =  45 training steps =  10000 reward =  -43.77674418604613 frac =  0.5156071998177262
+round =  46 training steps =  10000 reward =  2.3581395348836645 frac =  0.5261315912272515
+round =  47 training steps =  10000 reward =  -83.7813953488372 frac =  0.5061470656460219
+round =  48 training steps =  10000 reward =  -25.925581395349194 frac =  0.5194927195866604
+round =  49 training steps =  10000 reward =  -205.320930232558 frac =  0.4777544840437922
+round =  50 training steps =  10000 reward =  69.20000000000013 frac =  0.5420028476506882
+round =  51 training steps =  10000 reward =  -138.72093023255795 frac =  0.4929411764705882
+round =  52 training steps =  10000 reward =  -130.31162790697664 frac =  0.49480396787907416
+round =  53 training steps =  10000 reward =  -8.762790697674927 frac =  0.523491533508228
+round =  54 training steps =  10000 reward =  -36.55348837209368 frac =  0.5170068027210885
+round =  55 training steps =  10000 reward =  -42.61860465116274 frac =  0.5155440414507773
+round =  56 training steps =  10000 reward =  18.753488372092953 frac =  0.5299929428369795
+round =  57 training steps =  10000 reward =  -89.63255813953461 frac =  0.5043766264490183
+round =  58 training steps =  10000 reward =  -18.181395348837242 frac =  0.5213214620431116
+round =  59 training steps =  10000 reward =  -155.24186046511585 frac =  0.4897204897204897
+round =  60 training steps =  10000 reward =  109.30232558139582 frac =  0.5515439429928741
+round =  61 training steps =  10000 reward =  61.48372093023296 frac =  0.54007543611504
+round =  62 training steps =  10000 reward =  -3.800000000000107 frac =  0.5246796392975795
+round =  63 training steps =  10000 reward =  -8.362790697674713 frac =  0.5236071765816809
+round =  64 training steps =  10000 reward =  13.39534883720913 frac =  0.5287221570926143
+round =  65 training steps =  10000 reward =  51.12558139534893 frac =  0.5375939849624061
+round =  66 training steps =  10000 reward =  135.6232558139536 frac =  0.557742470950913
+round =  67 training steps =  10000 reward =  57.111627906977205 frac =  0.5390606561246165
+round =  68 training steps =  10000 reward =  -77.86046511627906 frac =  0.5073684210526316
+round =  69 training steps =  10000 reward =  65.6232558139536 frac =  0.5411429926488025
+round =  70 training steps =  10000 reward =  -119.46511627906978 frac =  0.4974056603773585
+round =  71 training steps =  10000 reward =  26.576744186046483 frac =  0.531766348615313
+round =  72 training steps =  10000 reward =  -87.17674418604639 frac =  0.5055223193741372
+round =  73 training steps =  10000 reward =  62.62790697674444 frac =  0.540162980209546
+round =  74 training steps =  10000 reward =  77.99069767441834 frac =  0.5434732736866253
+round =  75 training steps =  10000 reward =  -48.102325581395824 frac =  0.5144052044609665
+round =  76 training steps =  10000 reward =  65.0093023255814 frac =  0.540910162697477
+round =  77 training steps =  10000 reward =  15.381395348836998 frac =  0.5292039566650966
+round =  78 training steps =  10000 reward =  114.78139534883718 frac =  0.5523432035439496
+round =  79 training steps =  10000 reward =  -42.627906976744505 frac =  0.5156794425087108
+round =  80 training steps =  10000 reward =  -8.962790697674773 frac =  0.5234867959803693
+round =  81 training steps =  10000 reward =  -112.52558139534833 frac =  0.499418739827947
+round =  82 training steps =  10000 reward =  56.22790697674449 frac =  0.5388052681091251
+round =  83 training steps =  10000 reward =  80.86976744186043 frac =  0.5445382090951711
+round =  84 training steps =  10000 reward =  -51.381395348836904 frac =  0.5137804317868626
+round =  85 training steps =  10000 reward =  20.395348837209244 frac =  0.5303634232121922
+round =  86 training steps =  10000 reward =  60.2790697674417 frac =  0.5397647058823529
+round =  87 training steps =  10000 reward =  21.125581395348174 frac =  0.5305451127819549
+round =  88 training steps =  10000 reward =  -77.65581395348816 frac =  0.507382235762831
+round =  89 training steps =  10000 reward =  118.55813953488419 frac =  0.5538095238095239
+round =  90 training steps =  10000 reward =  90.49302325581431 frac =  0.5472149175233086
+round =  91 training steps =  10000 reward =  77.3209302325586 frac =  0.5435337822149988
+round =  92 training steps =  10000 reward =  -6.897674418604697 frac =  0.523975791433892
+round =  93 training steps =  10000 reward =  10.995348837209338 frac =  0.5281856939838939
+round =  94 training steps =  10000 reward =  59.576744186046724 frac =  0.5394461252036304
+round =  95 training steps =  10000 reward =  13.353488372092947 frac =  0.5286004973999547
+round =  96 training steps =  10000 reward =  -4.213953488372914 frac =  0.5246164414930158
+round =  97 training steps =  10000 reward =  -8.600000000000438 frac =  0.5236011973290352
+round =  98 training steps =  10000 reward =  40.818604651163106 frac =  0.53514526710403
+round =  99 training steps =  10000 reward =  9.186046511627943 frac =  0.5277711561382599
+SM1 =  0.5228925973470261
+osm =  0.5724848756441855
+final simulation fraction =  0.5552650344663655
