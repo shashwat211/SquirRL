@@ -35,7 +35,7 @@ class Qnetwork():
 
         # The network recieves a state number from
         # It then resizes it and processes it through four convolutional layers.
-        self.vectorIn = tf.placeholder(shape=[None, state_vector_n], dtype=tf.float32)
+        self.vectorIn = tf.compat.v1.placeholder(shape=[None, state_vector_n], dtype=tf.float32)
         #print(self.scalarInput)
         #self.vectorIn = tf.one_hot(self.scalarInput, state_space_n, dtype=tf.float32)
         #print(self.vectorIn)
@@ -79,15 +79,15 @@ class Qnetwork():
         self.predict = tf.argmax(self.Qout, 1)
 
         # Below we obtain the loss by taking the sum of squares difference between the target and prediction Q values.
-        self.targetQ = tf.placeholder(shape=[None], dtype=tf.float32)
-        self.actions = tf.placeholder(shape=[None], dtype=tf.int32)
+        self.targetQ = tf.compat.v1.placeholder(shape=[None], dtype=tf.float32)
+        self.actions = tf.compat.v1.placeholder(shape=[None], dtype=tf.int32)
         self.actions_onehot = tf.one_hot(self.actions, action_space_n, dtype=tf.float32)
 
         self.Q = tf.reduce_sum(tf.multiply(self.Qout, self.actions_onehot), axis=1)
 
         self.td_error = tf.square(self.targetQ - self.Q)
         self.loss = tf.reduce_mean(self.td_error)
-        self.trainer = tf.train.AdamOptimizer(learning_rate=0.0001)
+        self.trainer = tf.compat.v1.train.AdamOptimizer(learning_rate=0.0001)
         self.updateModel = self.trainer.minimize(self.loss)
 
     def get_Q_table(self, sess, s):
@@ -209,15 +209,15 @@ optimal_policy = solver.policy
 SM1_policy = np.zeros_like(optimal_policy)
 '''
 
-tf.reset_default_graph()
+tf.compat.v1.reset_default_graph()
 mainQN = Qnetwork(h_size, env._state_space_n, env._state_vector_n, env._action_space_n)
 targetQN = Qnetwork(h_size, env._state_space_n, env._state_vector_n, env._action_space_n)
 
-init = tf.global_variables_initializer()
+init = tf.compat.v1.global_variables_initializer()
 
-saver = tf.train.Saver()
+saver = tf.compat.v1.train.Saver()
 
-trainables = tf.trainable_variables()
+trainables = tf.compat.v1.trainable_variables()
 
 targetOps = updateTargetGraph(trainables,tau)
 
@@ -238,7 +238,7 @@ history_best = 0
 if not os.path.exists(path):
     os.makedirs(path)
 
-with tf.Session() as sess:
+with tf.compat.v1.Session() as sess:
 
     sess.run(init)
     if load_model == True:

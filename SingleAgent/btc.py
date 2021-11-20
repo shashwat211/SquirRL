@@ -20,6 +20,7 @@ import tensorflow.contrib.slim as slim
 import matplotlib.pyplot as plt
 import scipy.misc
 import os
+# import keras
 from environment import SM_env
 from environment import random_normal_trunc
 from environment import eth_env
@@ -37,7 +38,7 @@ class Qnetwork():
 
         # The network recieves a state number from
         # It then resizes it and processes it through four convolutional layers.
-        self.vectorIn = tf.placeholder(shape=[None, state_vector_n], dtype=tf.float32)
+        self.vectorIn = tf.compat.v1.placeholder(shape=[None, state_vector_n], dtype=tf.float32)
         #print(self.scalarInput)
         #self.vectorIn = tf.one_hot(self.scalarInput, state_space_n, dtype=tf.float32)
         #print(self.vectorIn)
@@ -89,7 +90,7 @@ class Qnetwork():
 
         self.td_error = tf.square(self.targetQ - self.Q)
         self.loss = tf.reduce_mean(self.td_error)
-        self.trainer = tf.train.AdamOptimizer(learning_rate=0.0001)
+        self.trainer = tf.compat.v1.train.AdamOptimizer(learning_rate=0.0001)
         self.updateModel = self.trainer.minimize(self.loss)
 
     def get_Q_table(self, sess, s):
@@ -186,7 +187,7 @@ know_alpha = True # if the agent knows the current alpha.
 random_process = "iid" # or "brown" -- brownian process
 
 #Other training params.
-batch_size = 64 #How many experiences to use for each training step.
+batch_size = 12 #How many experiences to use for each training step.
 update_freq = 4 #How often to perform a training step.
 y = .99 #Discount factor on the target Q-values
 startE = 1 #Starting chance of random action
@@ -216,15 +217,15 @@ if (env._state_space_n < MDP_size_threshold):
     optimal_policy = solver.policy
     SM1_policy = np.zeros_like(optimal_policy)
 
-tf.reset_default_graph()
+tf.compat.v1.reset_default_graph()
 mainQN = Qnetwork(h_size, env._state_space_n, env._state_vector_n, env._action_space_n)
 targetQN = Qnetwork(h_size, env._state_space_n, env._state_vector_n, env._action_space_n)
 
-init = tf.global_variables_initializer()
+init = tf.compat.v1.global_variables_initializer()
 
-saver = tf.train.Saver()
+saver = tf.compat.v1.train.Saver()
 
-trainables = tf.trainable_variables()
+trainables = tf.compat.v1.trainable_variables()
 
 targetOps = updateTargetGraph(trainables,tau)
 
@@ -245,7 +246,7 @@ history_best = 0
 if not os.path.exists(path):
     os.makedirs(path)
 
-with tf.Session() as sess:
+with tf.compat.v1.Session() as sess:
 
     sess.run(init)
     if load_model == True:
