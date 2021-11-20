@@ -180,7 +180,7 @@ def LOAD_MODEL(path):
     return policy
 
 
-batch_size = 2 #How many experiences to use for each training step.
+batch_size = 32 #How many experiences to use for each training step.
 update_freq = 4 #How often to perform a training step.
 y = .99 #Discount factor on the target Q-values
 startE = 1 #Starting chance of random action
@@ -350,8 +350,8 @@ with tf.compat.v1.Session() as sess:
         print('history best = ', history_best)
         saver.restore(sess, best_path)
 
-    usage = sess.run(tf.contrib.memory_stats.MaxBytesInUse())
-    print("memory = ", usage)
+#     usage = sess.run(tf.contrib.memory_stats.MaxBytesInUse())
+#     print("memory = ", usage)
 
     ## map to legal action
     '''
