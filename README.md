@@ -32,31 +32,3 @@ The training and testing part of the RL agent for the Bitcoin/Ethereum/GHOST pro
 `\SingleAgent\optimal_policy.py`
 
 The implementation of *Optimal Selfish Mining*. We saved the policy in `optimal_policy.txt`. 
-
-## Block Withholding Part
-
-We reproduce the two-agent block withholding result in [The Miner's Dilemma](https://arxiv.org/abs/1411.7099). Given the proportion of mining power two mining pools possess, there exists a unique Nash equilibirium which they fall in when deciding how much mining power to infiltrate in each other's pool. We use the *SquirRL* framework to find such equilibrium.
-
-### Basic Usage
-In `\BlockWithholding`, run
-```
-python blockwithholding.py > result.txt
-```
-to train the RL agents and find the strategies and rewards of them.
-
-You can specify the mining power of the two agents via argument `alphas`, e.g., for two mining pools possessing 30% and 50% mining power respectively, you can run the program with `--alphas 0.3 0.5`.
-
-The policies and rewards of our training result is saved in `\result\result.csv`.
-
-
-## Contributor
-
-Ordered by alphabet: 
-
-Charlie Hou charlieh@andrew.cmu.edu
-
-Mingxun Zhou : zhoumingxun@pku.edu.cn
-
-Yan Ji : yj348@cornell.edu
-
-
