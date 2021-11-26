@@ -5,7 +5,7 @@ This is the implementation of the paper *SquirRL: Automating Attack Discovery on
 
 ## Single Agent Part
 
-We test 3 different chain rules: Bitcoin(longest chain rule), Ethereum(uncle block rule) and GHOST (heaviest sub-tree rule). 
+We test 3 different chain rules: Bitcoin(longest chain rule), Ethereum(uncle block rule) and GHOST (heaviest sub-tree rule, this is our own implementation). 
 
 ### Basic Usage
 
