@@ -3,8 +3,10 @@
 
 ## Team Details:
 
-**Team Name**: 29  
-**Team Members**
+**Team Number**: 29  
+**Project Topic**: Reinforcement Learning With Blockchain  
+
+### Team Members
 
 | **Name**              | **Roll Number** |
 | ----------------- | ----------- |
