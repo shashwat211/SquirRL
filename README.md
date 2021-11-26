@@ -17,7 +17,7 @@ Reinforcement Learning With Blockchain
 
 ## Code Details
 
-This is the implementation of the Single Agent part of paper *SquirRL: Automating Attack Discovery on Blockchain Incentive Mechanisms with Deep Reinforcement Learning* (https://arxiv.org/abs/1912.01798). Additionally, we have added the code for an additional GHOST protocol.
+This is the implementation of the Single Agent part of paper *SquirRL: Automating Attack Discovery on Blockchain Incentive Mechanisms with Deep Reinforcement Learning* (https://arxiv.org/abs/1912.01798). Additionally, we have added the code for the GHOST protocol to the project. Similar work can be done for any protocol in cryptocurrencies.
 
 ## Single Agent Part
 
