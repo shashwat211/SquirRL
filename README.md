@@ -4,7 +4,8 @@
 ## Team Details:
 
 **Team Number**: 29  
-**Project Topic**: Reinforcement Learning With Blockchain  
+## Project Topic  
+Reinforcement Learning With Blockchain  
 
 ### Team Members
 
