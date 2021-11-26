@@ -1,15 +1,3 @@
-'''
-Credit to
-
-https://github.com/awjuliani/DeepRL-Agents/blob/master/Double-Dueling-DQN.ipynb
-https://medium.com/@awjuliani/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0#.4gyadb8a4
-
-This guy's tutorial is very helpful!
-
-
-Handle the illegale move : map to a legal one
-'''
-
 from __future__ import division
 
 import gym
