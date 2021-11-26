@@ -1,7 +1,20 @@
 
-# SquirRL
+# CS577 Introduction to Blockchain and Cryptocurrency: Project Code  
 
-This is the implementation of the paper *SquirRL: Automating Attack Discovery on Blockchain Incentive Mechanisms with Deep Reinforcement Learning* (https://arxiv.org/abs/1912.01798). 
+## Team Details:
+
+**Team Name**: 29
+**Team Members**
+
+| **Name**              | **Roll Number** |
+| ----------------- | ----------- |
+| Kunj Taneja   | 1801CS30    |
+| Shashwat Mahajan      | 1801CS46    |
+| Vanshika Srivastava  | 1801CS69    |
+
+## Code Details
+
+This is the implementation of the Single Agent part of paper *SquirRL: Automating Attack Discovery on Blockchain Incentive Mechanisms with Deep Reinforcement Learning* (https://arxiv.org/abs/1912.01798). Additionally, we have added the code for an additional GHOST protocol.
 
 ## Single Agent Part
 
