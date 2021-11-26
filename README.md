@@ -1,11 +1,8 @@
 
 # CS577 Introduction to Blockchain and Cryptocurrency: Project Code  
 
-## Team Details:
-
+## Team Details
 **Team Number**: 29  
-## Project Topic  
-Reinforcement Learning With Blockchain  
 
 ### Team Members
 
@@ -14,6 +11,9 @@ Reinforcement Learning With Blockchain
 | Kunj Taneja   | 1801CS30    |
 | Shashwat Mahajan      | 1801CS46    |
 | Vanshika Srivastava  | 1801CS69    |
+  
+### Project Topic  
+Reinforcement Learning With Blockchain  
 
 ## Code Details
 
